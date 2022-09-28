@@ -1,5 +1,5 @@
 {
-    "name": "wushu06/cloudmersive_virusscan_api_client",
+    "name": "cloudmersive/cloudmersive_virusscan_api_client",
     "version": "1.5.6",
     "description": "",
     "keywords": [
@@ -21,12 +21,16 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "7.4.2"
+        "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
-        "psr-4": { "Swagger\\Client\\" : "lib/" }
+        "psr-4": {
+            "Swagger\\Client\\": "lib/"
+        }
     },
     "autoload-dev": {
-        "psr-4": { "Swagger\\Client\\" : "test/" }
+        "psr-4": {
+            "Swagger\\Client\\": "test/"
+        }
     }
 }
